@@ -282,7 +282,7 @@ public class ObjectTest extends TestCase {
   }
 
   public void testAnonymousLocalClassesSerialization() throws Exception {
-    assertEquals("null", gson.toJson(new ClassWithNoFields() {
+    assertEquals("{}", gson.toJson(new ClassWithNoFields() {
       // empty anonymous class
     }));
   }
@@ -297,7 +297,7 @@ public class ObjectTest extends TestCase {
               }
             }).create();
 
-    assertEquals("null", gson.toJson(new ClassWithNoFields() {
+    assertEquals("{}", gson.toJson(new ClassWithNoFields() {
       // empty anonymous class
     }));
   }
