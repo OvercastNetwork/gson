@@ -34,16 +34,18 @@
     <system>Github Issue Tracking</system>
     <url>https://github.com/google/gson/issues</url>
   </issueManagement>
+
   <distributionManagement>
       <repository>
-          <id>overcast-deployment</id>
-          <url>https://repo.oc.tc/content/repositories/releases</url>
+          <id>pa-deployment</id>
+          <url>https://repo.extension.ws/content/repositories/releases</url>
       </repository>
       <snapshotRepository>
-          <id>overcast-deployment</id>
-          <url>https://repo.oc.tc/content/repositories/snapshots</url>
+          <id>pa-deployment</id>
+          <url>https://repo.extension.ws/content/repositories/snapshots</url>
       </snapshotRepository>
   </distributionManagement>
+
   <organization>
     <name>Overcast Network</name>
     <url>https://oc.tc</url>
